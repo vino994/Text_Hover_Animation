@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+h1{
+    font-family: monospace;
+    font-size: 60px;
+    cursor: pointer;
+}
+h1 span{
+    color: #555;
+    
+}
+h1:hover span{
+    color: aqua;
+    text-shadow: 0 0 5px aqua,
+    0 0 15px aqua,
+    0 0 30px aqua;
+}
